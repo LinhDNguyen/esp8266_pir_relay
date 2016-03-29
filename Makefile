@@ -11,11 +11,11 @@
 #     subdir/lib to be extracted and rolled up into
 #     a generated lib/image xxx.a ()
 #
-BOOT?=new
-APP?=1
+BOOT?=none
+APP?=0
 SPI_SPEED?=40
 SPI_MODE?=DIO
-SPI_SIZE_MAP?=2
+SPI_SIZE_MAP?=0
 SDK_PATH?=/d/works/BBiQ/code/ESP8266_RTOS_SDK
 BIN_PATH?=/d/works/BBiQ/code/ESP8266_RTOS_SDK/bin
 SDK_TOOLS?= /c/Espressif/utils
